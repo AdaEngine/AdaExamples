@@ -1,0 +1,25 @@
+name: Publish sample archives
+
+on:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: write
+
+jobs:
+  archives:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build archives
+        run: |
+          mkdir -p dist
+          jq -r '.items[] | [.path, .archive] | @tsv' catalog.json | while IFS=$'\t' read -r project_path archive; do
+            (cd "$project_path" && zip -r "$GITHUB_WORKSPACE/dist/$archive" . -x '.build/*' '.swiftpm/*' 'dist/*' '.ada/workspace/*')
+          done
+          (cd dist && sha256sum *.zip > SHA256SUMS)
+      - name: Publish release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "${GITHUB_REF_NAME}" dist/* --generate-notes

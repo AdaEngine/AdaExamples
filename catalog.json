@@ -1,0 +1,61 @@
+{
+  "$schema": "./catalog.schema.json",
+  "schemaVersion": 1,
+  "repository": "https://github.com/AdaEngine/AdaExamples",
+  "defaultRef": "main",
+  "releaseBaseURL": "https://github.com/AdaEngine/AdaExamples/releases/latest/download",
+  "tagDefinitions": [
+    { "id": "AdaScript", "group": "language" },
+    { "id": "Swift", "group": "language" },
+    { "id": "2D", "group": "dimension" },
+    { "id": "3D", "group": "dimension" },
+    { "id": "Platformer", "group": "genre" },
+    { "id": "Puzzle", "group": "genre" },
+    { "id": "Arcade", "group": "genre" },
+    { "id": "Adventure", "group": "genre" },
+    { "id": "Shooter", "group": "genre" },
+    { "id": "Physics", "group": "feature" },
+    { "id": "UI", "group": "feature" },
+    { "id": "Audio", "group": "feature" },
+    { "id": "Input", "group": "feature" },
+    { "id": "Tilemap", "group": "feature" },
+    { "id": "Lighting", "group": "feature" },
+    { "id": "Animation", "group": "feature" },
+    { "id": "Foldable", "group": "feature" },
+    { "id": "Desktop", "group": "platform" },
+    { "id": "Mobile", "group": "platform" },
+    { "id": "Web", "group": "platform" }
+  ],
+  "items": [
+    {
+      "id": "fold",
+      "kind": "sample",
+      "title": "Fold",
+      "description": "Bend two leaves to turn projected shadows into bridges in a complete 2D platformer.",
+      "path": "Samples/Fold",
+      "preview": "Assets/Previews/fold.png",
+      "archive": "Fold.zip",
+      "tags": ["AdaScript", "Swift", "2D", "Platformer", "Physics", "Input", "Lighting", "Foldable", "Desktop"]
+    },
+    {
+      "id": "star-quest",
+      "kind": "sample",
+      "title": "Star Quest",
+      "description": "A complete AdaUI adventure with authored UI documents and an equivalent native Swift interface.",
+      "path": "Samples/StarQuest",
+      "preview": "Assets/Previews/star-quest.png",
+      "archive": "StarQuest.zip",
+      "tags": ["Swift", "2D", "Adventure", "UI", "Animation", "Desktop"]
+    },
+    {
+      "id": "unfold-the-world",
+      "kind": "sample",
+      "title": "Unfold the World",
+      "description": "An AdaScript project that keeps one game world alive while a foldable companion region appears.",
+      "path": "Samples/UnfoldTheWorld",
+      "preview": "Assets/Previews/unfold-the-world.png",
+      "archive": "UnfoldTheWorld.zip",
+      "tags": ["AdaScript", "2D", "Platformer", "UI", "Foldable", "Desktop"]
+    }
+  ]
+}
