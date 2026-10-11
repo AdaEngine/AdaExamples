@@ -56,6 +56,25 @@
       "preview": "Assets/Previews/unfold-the-world.png",
       "archive": "UnfoldTheWorld.zip",
       "tags": ["AdaScript", "2D", "Platformer", "UI", "Foldable", "Desktop"]
+    },
+    {
+      "id": "skeletal-garden",
+      "kind": "sample",
+      "title": "Skeletal Garden",
+      "description": "Explore a 3D AdaScript landscape with animated characters, lighting, shadows and physics.",
+      "path": "Samples/SkeletalGarden",
+      "preview": "Assets/Previews/skeletal-garden.png",
+      "archive": "SkeletalGarden.zip",
+      "tags": [
+        "AdaScript",
+        "3D",
+        "Adventure",
+        "Physics",
+        "Lighting",
+        "Animation",
+        "Input",
+        "Desktop"
+      ]
     }
   ]
 }

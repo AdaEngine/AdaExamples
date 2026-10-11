@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 3,
+  "ai": {
+    "mcp": {
+      "allowedResourceRoots": [],
+      "enabled": true
+    }
+  },
+  "build": {
+    "system": "adascript",
+    "targets": [],
+    "includedFiles": [],
+    "excludedFiles": []
+  },
+  "editor": {
+    "startupScene": "Assets/Scenes/Main.ascn"
+  },
+  "engine": {},
+  "paths": {
+    "assets": "Assets",
+    "resourceRoots": [
+      "Assets"
+    ],
+    "run": {},
+    "sources": "Sources"
+  },
+  "project": {
+    "name": "SkeletalGarden",
+    "displayName": "Skeletal Garden"
+  },
+  "run": {
+    "arguments": [],
+    "destination": "macos",
+    "environment": {}
+  },
+  "runtime": {
+    "moduleName": "SkeletalGarden",
+    "plugins": {
+      "disable": [],
+      "enable": [
+        "physics3d"
+      ],
+      "preset": "game3d",
+      "presetVersion": 1,
+      "settings": {}
+    },
+    "window": {
+      "isResizable": true,
+      "size": {
+        "width": 1100,
+        "height": 760
+      }
+    },
+    "entry": {
+      "scene": "Assets/Scenes/Main.ascn"
+    }
+  },
+  "inputActions": [
+    {
+      "name": "MoveForward",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "w"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MoveBack",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "s"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MoveLeft",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "a"
+          }
+        }
+      ]
+    },
+    {
+      "name": "MoveRight",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "d"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Run",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "shift"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Jump",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": " "
+          }
+        }
+      ]
+    },
+    {
+      "name": "Reset",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "r"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ZoomIn",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "q"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ZoomOut",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "e"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Shadows",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "1"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AO",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AA",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Cascades",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "4"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Culling",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LOD",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "6"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Temporal",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "7"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LocalLights",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "8"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LocalShadows",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "9"
+          }
+        }
+      ]
+    },
+    {
+      "name": "GPUVisibility",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "key": {
+            "_0": "0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Orbit",
+      "deadZone": 0.2,
+      "bindings": [
+        {
+          "mouseButton": {
+            "_0": 1
+          }
+        }
+      ]
+    }
+  ]
+}

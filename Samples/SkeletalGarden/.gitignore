@@ -1,0 +1,6 @@
+.build/
+.swiftpm/
+dist/
+.ada/workspace/
+*.xcodeproj/
+.DS_Store
