@@ -21,7 +21,7 @@ The leg IK runs while authoring keys; runtime playback evaluates a regular clip.
 ## Regenerate through Studio
 
 Use a Studio build containing the procedural rig builder from
-[Ada PR #205](https://github.com/AdaEngine/Ada/pull/205). Pass the full contents of
+[Ada PR #206](https://github.com/AdaEngine/Ada/pull/206). Pass the full contents of
 `Generators/Skeleton-Rig.ada` as `source` to `editor.model.generate`, with a fresh
 `destination`, such as `Assets/Models/Skeleton-v2.glb`. The tool never overwrites
 an existing asset. Validate the new file and point the scene at its asset reference.
