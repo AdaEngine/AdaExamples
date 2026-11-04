@@ -3,3 +3,4 @@
 .swiftpm/
 dist/
 **/.ada/workspace/
+__pycache__/
