@@ -1,0 +1,8 @@
+.ada/*
+!.ada/project.json
+.builds/
+Evidence/
+References/
+__pycache__/
+Assets/Models/Skeleton-v*.glb
+Assets/Models/Skeleton-Walk-samples.glb

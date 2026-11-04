@@ -84,7 +84,9 @@ def validate_item(
         fail(f"duplicate item path: {relative_path}")
     item_paths.add(relative_path)
 
-    project_path = ROOT / relative_path
+    project_path = (ROOT / relative_path).resolve()
+    if project_path.is_relative_to((ROOT / "Examples/Technical").resolve()):
+        fail(f"{item_id}: technical examples must remain outside the public catalog")
     if not project_path.is_dir():
         fail(f"{item_id}: project directory does not exist: {relative_path}")
     if not (project_path / ".ada" / "project.json").is_file():

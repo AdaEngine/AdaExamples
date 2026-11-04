@@ -5,6 +5,8 @@ Official examples and complete sample games for [AdaEngine](https://github.com/A
 ## Repository layout
 
 - `Examples` contains focused projects that demonstrate one engine feature.
+- [`Examples/Technical`](Examples/Technical/README.md) contains opt-in developer studies,
+  excluded from the public catalog and recommendations.
 - `Samples` contains complete, runnable games and larger reference projects.
 - `Assets/Previews` contains the images used by catalog cards.
 - `catalog.json` is the machine-readable catalog consumed by AdaEditor and the website.
@@ -33,6 +35,9 @@ README. Swift projects resolve the AdaEngine revision recorded in their
 Keep every project self-contained. Do not add local package paths, build output,
 editor workspace state, or generated distribution bundles. Add a real preview under
 `Assets/Previews` and describe the project in `catalog.json`.
+
+Technical studies use `Examples/Technical` and its separate README index instead.
+Do not add them to `catalog.json`; catalog validation enforces this boundary.
 
 All contributions must pass catalog validation. Swift samples are also built and
 tested in CI.
