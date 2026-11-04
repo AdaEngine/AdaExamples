@@ -5,7 +5,7 @@ options:
 packages:
   AdaEngine:
     url: https://github.com/AdaEngine/Ada.git
-    revision: b43d7e8f2f03e124a62b77499f7c2949a078dc27
+    revision: a624ccded0a050fddc24ccfbb8079dfb8032805c
 settings:
   base:
     SWIFT_VERSION: '6.2'

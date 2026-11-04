@@ -7,7 +7,7 @@ let package = Package(
     platforms: [.macOS(.v15), .iOS(.v18)],
     products: [.executable(name: "SpinePreview", targets: ["SpinePreview"])],
     dependencies: [
-        .package(url: "https://github.com/AdaEngine/AdaEngine.git", revision: "b43d7e8f2f03e124a62b77499f7c2949a078dc27")
+        .package(url: "https://github.com/AdaEngine/AdaEngine.git", revision: "a624ccded0a050fddc24ccfbb8079dfb8032805c")
     ],
     targets: [
         .executableTarget(
